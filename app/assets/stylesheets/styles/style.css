@@ -242,6 +242,9 @@ ul.nav{
 .feature-detail h2{
 	margin-bottom: 10px;
 }
+.feature-detail h4{
+	margin-top: 30px;
+}
 .feature-detail p{
 	font-size: 18px;
 	color: #999999;
