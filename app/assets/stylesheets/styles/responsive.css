@@ -81,9 +81,9 @@
 		.details ul li {
 	  font-size: 14px;
 	}
-	.feature-detail h4 {
+	/*.feature-detail h4 {
 	  margin-top: 50px;
-	}
+	}*/
 	.feature-detail p {
 	  font-size: 13px;
 	  margin-top: 10px;
@@ -185,9 +185,9 @@
 		  height: 20px;
 		  width: 20px;
 	}
-	.feature-detail h4 {
+	/*.feature-detail h4 {
   		margin-top: 40px;
-  	}
+  	}*/
   	.feature-detail p {
 	  font-size: 12px;
 	  margin-top: 10px;
