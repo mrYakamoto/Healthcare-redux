@@ -51,12 +51,12 @@ $(document).on('ready page:load', function() {
 
         if(windowScrollPosTop >= 150) {
           $(".top-header").css({"background": "#18171D",});
-          $(".top-header img.logo").css({"margin-top": "-30px", "margin-bottom": "15px"});
+          $(".top-header img.logo").css({"margin-top": "-5px", "margin-bottom": "5px"});
           $(".nav-bar").css({"margin-top": "6px",});
         }
         else{
           $(".top-header").css({"background": "transparent",});
-           $(".top-header img.logo").css({"margin-top": "-30px", "margin-bottom": "25px"});
+           $(".top-header img.logo").css({"margin-top": "-5px", "margin-bottom": "5px"});
            $(".nav-bar").css({"margin-top": "28px"});
 
         }
