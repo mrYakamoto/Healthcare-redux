@@ -3484,17 +3484,17 @@ ul.nav {
 
 /*feature-detail area*/
 /* line 239, /Users/Balthasar/Desktop/projects/reproductive-healthcare-locator-redux/app/assets/stylesheets/styles/style.css */
-.feature-detail {
+.detail {
   background: #f2f2f2;
 }
 
 /* line 242, /Users/Balthasar/Desktop/projects/reproductive-healthcare-locator-redux/app/assets/stylesheets/styles/style.css */
-.feature-detail h2 {
+.detail h2 {
   margin-bottom: 10px;
 }
 
 /* line 248, /Users/Balthasar/Desktop/projects/reproductive-healthcare-locator-redux/app/assets/stylesheets/styles/style.css */
-.feature-detail p {
+.detail p {
   font-size: 18px;
   color: #999999;
   margin-top: 20px;

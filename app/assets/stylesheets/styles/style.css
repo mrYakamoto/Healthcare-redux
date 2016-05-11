@@ -236,16 +236,16 @@ ul.nav{
 }
 
 /*feature-detail area*/
-.feature-detail{
+.detail{
 	background: #f2f2f2;
 }
-.feature-detail h2{
+.detail h2{
 	margin-bottom: 10px;
 }
-.feature-detail h4{
+.detail h4{
 
 }
-.feature-detail p{
+.detail p{
 	font-size: 18px;
 	color: #999999;
 	margin-top: 20px;
