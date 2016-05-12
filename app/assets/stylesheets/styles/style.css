@@ -468,7 +468,7 @@ ul.nav{
 }
 .contact-heading img{
 	margin: auto;
-	margin-bottom: 50px;
+	margin-bottom: 0px;
 }
 .contact i.fa{
 	color: #008ed6;
@@ -480,11 +480,13 @@ ul.nav{
 	color: #999999;
 	line-height: 1;
 }
+.contact-form-container {
+	float: none;
+	margin: 0 auto;
+}
 .contact-form{
 	background: #15141a;
 	overflow: hidden;
-	z-index: 222;
-	position: absolute;
 	margin-top: 50px;
 }
 .contact-form-left, .contact-form-right{
