@@ -64,7 +64,7 @@
         <h2>Resources for Women's Healthcare Information</h2>
         <%= image_tag "daag.png", class: "img-responsive" %>
         <div class="col-md-3 wow zoomIn animated">
-          <a href="http://www.your-life.com/en/contraception-methods/#methods-">
+          <a href="https://bedsider.org/methods">
           <i class="fa fa-medkit"></i>
           </a>
           <h3>Birth Control</h3>
@@ -83,7 +83,7 @@
           <p><a href="https://www.mybirthcontrolapp.org/demographics.php">Breast Health and Disease Prevention</a></p>
         </div>
         <div class="col-md-3 wow zoomIn animated">
-          <i class="fa fa-user-md"></i>
+          <i class="fa fa-venus"></i>
           <h3>Mayo Clinic</h3>
           <p><a href="http://www.mayoclinic.org/healthy-lifestyle/womens-health/in-depth/HLV-20049411">Women's Health in Depth</a></p>
         </div>
@@ -96,7 +96,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-5 col-xs-6 col-sm-6 wow slideInUp animated">
-          <%= image_tag "hd-photos/dark-1.png", class: "img-responsive details-phone" %>
+          <%= image_tag "hd-photos/dark-1(md).png", class: "img-responsive details-phone" %>
         </div>
         <div class="col-md-6 col-md-offset-1 col-xs-6 col-sm-6 wow slideInUp animated">
           <h4>Avoid CPCs</h4>
@@ -106,22 +106,22 @@
           <ul>
             <li>
               <a href="https://www.plannedparenthood.org/learn/pregnancy/crisis-pregnancy-centers">
-              <i class="fa fa-trophy"></i>Planned Parenthood on CPCs
+              <i class="fa fa-user-md"></i>Planned Parenthood on CPCs
             </a>
             </li>
             <li>
               <a href="https://www.youtube.com/watch?v=g-ex4Q-z-is">
-              <i class="fa fa-mobile"></i>Vice News on CPCs
+              <i class="fa fa-video-camera"></i>Vice News on CPCs
             </a>
             </li>
             <li>
               <a href="http://www.prochoiceamerica.org/assets/download-files/cpc-report-2015.pdf">
-              <i class="fa fa-bolt"></i> NARAL report on CPCs
+              <i class="fa fa-universal-access"></i> NARAL report on CPCs
             </a>
             </li>
             <li>
               <a href="http://www.slate.com/blogs/xx_factor/2016/01/05/abortion_rights_advocates_may_have_finally_found_a_way_to_regulate_crisis.html">
-              <i class="fa fa-tachometer"></i>Slate article on CPCs
+              <i class="fa fa-bolt"></i>Slate article on CPCs
               </a>
             </li>
           </ul>
@@ -135,10 +135,14 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-5 wow fadeInLeft animated">
-          <h4>lorem ipsum dolor</h4>
-          <h2>OTHER STUFF GOES HERE</h2>
-          <%= image_tag "daag.png" %>
-          <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+          <h4>Clinic Locator</h4>
+          <h2>Find a Real Clinic Near You</h2>
+           <%= image_tag "daag.png" %>
+
+
+          <p>Now that you have a little more information, it may be time to go see a doctor. Below is a location tool to help find certified reproductive healthcare clinics near you. Real clinics are marked with green markers, and CPCs are marked with red markers. Enter your location in the text field and find real doctors to answer your questions. Please contact us if you find that any clinics/CPCs are missing or mislabelled.</p></br>
+          <%= image_tag "green-dot.png"%><p class="certified">Certified Reproductive Healthcare Clinics</p></br>
+          <%= image_tag "red-dot.png"%><p class="cpcs">Crisis Pregnancy Centers</p>
         </div>
         <div class="col-xs-7 horizontal-phone wow fadeInRight animated">
           <%= image_tag "hd-photos/woman4(md).jpg", class: "img-responsive", alt: "phone" %>
@@ -166,9 +170,23 @@
 
   <!-- price-plan section -->
   <section class="price-plan text-center" id="pricing">
-    <div class="container">
+     <i class="fa fa-user-md" style="font-size: 5em;"></i>
+    <form class='col-lg-6 search-form' action='#' method='get'>
+                <div id="custom-search-input">
+
+                  <div class="input-group">
+                    <input name="search-input" id="search-input" type="text" class="form-control input-lg" placeholder="Search any location" />
+                    <span class="input-group-btn">
+                      <button class="btn btn-info btn-lg" type="button">
+                        <i class="fa fa-search"></i>
+                      </button>
+                    </span>
+                  </div>
+                  </div>
+                </form>
+    <div class="container-fluid">
       <div class="row">
-        <h1>MAP GOES HERE</h1>
+        <div id="map" style='width: 100%; height: 600px;'></div>
       </div>
     </div>
   </section><!-- end of price-plan section -->

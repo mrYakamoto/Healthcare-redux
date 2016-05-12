@@ -250,6 +250,16 @@ ul.nav{
 	color: #999999;
 	margin-top: 20px;
 }
+.detail p.certified {
+	color: green;
+	display: inline-block;
+	margin-top: 10px;
+}
+.detail p.cpcs {
+	color: red;
+	display: inline-block;
+	margin-top: 10px;
+}
 .horizontal-phone img{
 	margin:90px 0;
 }
@@ -310,6 +320,10 @@ ul.nav{
 	margin-left: 15px;
 }
 /*price-plan area*/
+.search-form {
+	margin: 0 auto;
+	float: none;
+}
 .price-plan img{
 	margin:auto;
 	margin-bottom: 70px;
