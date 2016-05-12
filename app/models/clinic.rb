@@ -13,6 +13,7 @@ def self.set_lat_lng(clinic_array)
       response = RestClient.get "https://maps.googleapis.com/maps/api/geocode/json?address=#{full_address}&key=#{ENV["GOOGLE_API"]}"
       parsed_response = JSON.parse(response)
       if (parsed_response["status"] != "ZERO_RESULTS")
+        puts parsed_response
         clinic.lat = parsed_response["results"][0]["geometry"]["location"]["lat"]
         clinic.lng = parsed_response["results"][0]["geometry"]["location"]["lng"]
         clinic.save
