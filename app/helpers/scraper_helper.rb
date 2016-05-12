@@ -4,7 +4,7 @@ require 'open-uri'
 module ScraperHelper
 
   def import_csv_data
-    csv_text = File.read('/clinic_data/parsed_results_three_rows.csv')
+    csv_text = File.read('./clinic_data/parsed_results_three_rows.csv')
     csv = CSV.parse(csv_text, :headers => true)
     csv.each do |clinic|
       p clinic
@@ -13,7 +13,7 @@ module ScraperHelper
 
   end
   def import_FP_csv_data
-    csv_text = File.read('/clinic_data/FP_clinics.csv')
+    csv_text = File.read('./clinic_data/FP_clinics.csv')
     csv = CSV.parse(csv_text, :headers => true)
     csv.each do |clinic|
       p clinic
