@@ -43146,3 +43146,63 @@ Started GET "/assets/green-dot-2364583a45ffe6cf4b7faeb61c7becb594a23f81710e6406f
 
 
 Started GET "/assets/red-dot-01f7ff9106205f8d2051c326cbd6e039f30d7c3a2b657bbf6d5c24d12084c5bb.png" for ::1 at 2016-05-12 11:41:11 -0500
+
+
+Started GET "/" for ::1 at 2016-05-12 12:19:41 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (57.4ms)
+Completed 200 OK in 151ms (Views: 150.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-05-12 12:19:59 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (31.6ms)
+Completed 200 OK in 103ms (Views: 101.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-cfc8e54e917e505ec3709ef0af6dcb07943965be135810002d4b75ef5ed56e88.css?body=1" for ::1 at 2016-05-12 12:19:59 -0500
+
+
+Started GET "/assets/bootstrap.min.self-66fe84b79c6d5db31355296a8c9627d232721fe3ac3c31f3554ccc7e999279b6.css?body=1" for ::1 at 2016-05-12 12:20:00 -0500
+
+
+Started GET "/assets/application.self-d885a0a66bd595c10edb24f8879f94e334d88be0730c4d7c7a7b57c731c09037.css?body=1" for ::1 at 2016-05-12 12:20:00 -0500
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-05-12 12:20:00 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-12 12:20:00 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-12 12:20:00 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-12 12:20:00 -0500
+
+
+Started GET "/assets/template/custom.self-3cdfd5a0a18de13631547fe7081e11def04a7874c60b7b24801a8b07ec4f84a5.js?body=1" for ::1 at 2016-05-12 12:20:00 -0500
+
+
+Started GET "/assets/template/gmaps.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-05-12 12:20:00 -0500
+
+
+Started GET "/assets/template/html5shiv.self-2552b7440e6753bc7bd59f7dff28a5a4c9b3a2ee61ca9cd5fa12b8eb3f643e36.js?body=1" for ::1 at 2016-05-12 12:20:00 -0500
+
+
+Started GET "/assets/template/modernizr.self-50d91a59409b0763cb78a29e8971bb40b280f67693a658137dfc846a0bcd3ff3.js?body=1" for ::1 at 2016-05-12 12:20:00 -0500
+
+
+Started GET "/assets/template/respond.min.self-8306093ccce666c01dab405fac0d16596a1d1cf38aa0ba919d4831261662cdbb.js?body=1" for ::1 at 2016-05-12 12:20:00 -0500
+
+
+Started GET "/assets/template/smoothscroll.self-f746cc3df89a2f5ef2a18f5728434b1a6a68736d5fdaaeef00a4072c99d6dda0.js?body=1" for ::1 at 2016-05-12 12:20:00 -0500
+
+
+Started GET "/assets/template/wow.self-666f938c0692633891d3ca41be172bb098b1608e9c5b570450df22a366238db0.js?body=1" for ::1 at 2016-05-12 12:20:00 -0500
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-05-12 12:20:00 -0500
+
+
+Started GET "/assets/welcome.self-1b66ffdad045811ba54cc73eedeac9556472ab0a3292faaf82173709605e1cbb.js?body=1" for ::1 at 2016-05-12 12:20:00 -0500
