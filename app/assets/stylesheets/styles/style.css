@@ -250,16 +250,7 @@ ul.nav{
 	color: #999999;
 	margin-top: 20px;
 }
-.detail p.certified {
-	color: green;
-	display: inline-block;
-	margin-top: 10px;
-}
-.detail p.cpcs {
-	color: red;
-	display: inline-block;
-	margin-top: 10px;
-}
+
 .horizontal-phone img{
 	margin:90px 0;
 }
@@ -320,13 +311,29 @@ ul.nav{
 	margin-left: 15px;
 }
 /*price-plan area*/
-.search-form {
-	margin: 0 auto;
-	float: none;
+.price-plan {background: rgb(242, 242, 242);}
+
+p.certified {
+	color: green;
+	display: inline-block;
+	margin-top: 10px;
 }
-.price-plan img{
-	margin:auto;
-	margin-bottom: 70px;
+p.cpcs {
+	color: red;
+	display: inline-block;
+	margin-top: 10px;
+}
+.map-container {
+	position: relative;
+}
+.key-container {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 2;
 }
 .single-table{
 	border: 1px solid #e0e0e0;
